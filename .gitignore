@@ -1,0 +1,77 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.iml
+
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-store/
+.vscode-server/
+
+# Scala / sbt / build artifacts
+target/
+project/target/
+project/project/
+lib_managed/
+src_managed/
+out/
+dist/
+.cache/
+.history/
+
+# Scala / sbt caches that may live in home but sometimes appear locally
+/.bloop/
+.metals/
+
+# Coursier / Ivy / sbt boot (usually global, listed here if accidentally present)
+coursier-cache/
+.coursier/
+.ivy2/
+.sbt/
+.sbtboot/
+
+# Scala.js / bundler output
+# scalajs-bundler writes bundles under target/scala-<version>/ by default; exclude whole target above.
+# If you use a custom `dist` output folder, exclude it too:
+dist/
+*.bundle.js
+*.bundle.js.map
+
+# Webpack / dev server
+.webpack/
+webpack-stats.json
+webpack-dev-server.log
+
+# Generated resources and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Secrets / credentials (never commit)
+.env
+.env.local
+credentials.json
+*.pem
+*.p12
+*.jks
+*.key
+
+# IntelliJ Scratch and local run configs
+.idea/
+*.iml
+run/
+out/
+
+# Optional: keep lockfiles if you want reproducible JS installs; remove the lines above if you prefer to commit them
+# package-lock.json
+# yarn.lock
